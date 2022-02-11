@@ -21,7 +21,7 @@ function App() {
         <img className="img-intro daisy" src={daisy} alt="start" />
         <p className="img-intro hello">Hello</p>
         <div className="circle">
-          <p>I’m an art enthusiat who loves to solve problems using code and try to create useful plus beautiful web application.</p>
+          <p>I’m an art enthusiast who loves to solve problems using code and try to create useful plus beautiful web application.</p>
         </div>
       </div>
     </div>
