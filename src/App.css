@@ -122,14 +122,59 @@
     width: 48%;
   }
 
+  .circle {
+    max-width: 80%;
+    border-radius: 120px;
+    padding: 4% 8%;
+    background-color: #FFFFFF;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  
+  .circle p {
+    font-size: 20px;
+  }
+
+  .daisy {
+    width: 80%;
+  }
+  
+  .hello {
+    width: 80%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 30px auto;
+  }
+
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+  .image-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 400px;
+  }
   .stage{
+    width: 50%;
     position: absolute;
     left: 0;
     right: -47%;
     top: 16%;
     bottom: 0;
+  }
+  .circle {
+    max-width: 70%;
+  }
+  .daisy {
+    width: 85%;
+    bottom: 0px;
+    z-index: 0;
   }
 }
