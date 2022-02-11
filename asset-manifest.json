@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a326ac81.css",
-    "main.js": "/static/js/main.117fbd96.js",
+    "main.css": "/static/css/main.1f59ddb2.css",
+    "main.js": "/static/js/main.6dc8064d.js",
     "static/js/787.7f4ef900.chunk.js": "/static/js/787.7f4ef900.chunk.js",
+    "static/media/intro-daisy.png": "/static/media/intro-daisy.dddeeee9737b6f363877.png",
     "static/media/NunitoSans-Regular.ttf": "/static/media/NunitoSans-Regular.87d9266583abd389ca1f.ttf",
     "static/media/NunitoSans-ExtraLight.ttf": "/static/media/NunitoSans-ExtraLight.22307f8ccc4ba46e72eb.ttf",
     "static/media/title.png": "/static/media/title.333ae1c052e9e8869d6c.png",
     "index.html": "/index.html",
-    "main.a326ac81.css.map": "/static/css/main.a326ac81.css.map",
-    "main.117fbd96.js.map": "/static/js/main.117fbd96.js.map",
+    "main.1f59ddb2.css.map": "/static/css/main.1f59ddb2.css.map",
+    "main.6dc8064d.js.map": "/static/js/main.6dc8064d.js.map",
     "787.7f4ef900.chunk.js.map": "/static/js/787.7f4ef900.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a326ac81.css",
-    "static/js/main.117fbd96.js"
+    "static/css/main.1f59ddb2.css",
+    "static/js/main.6dc8064d.js"
   ]
 }
