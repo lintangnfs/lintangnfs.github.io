@@ -7,7 +7,9 @@ function App() {
     <div className="layout">
       <div className="section-title">
         <img className="image-title" src={title} alt="title" />
-        <img className="image-button" src={start} alt="start" />
+        <div className="stage">
+          <img className="image-button bounce-big" src={start} alt="start" />
+        </div>
       </div>
     </div>
   );

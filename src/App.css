@@ -1,6 +1,7 @@
 .layout{ 
   background-color: #FFFFFF;
   min-height: 100vh;
+  width: 100vw;
 }
 
 .section-title {
@@ -20,17 +21,25 @@
   text-align: center;
 }
 
-.image-button {
-  cursor: pointer;
+.stage {
   position: absolute;
   margin: auto;
   left: 32%;
   right: 0;
-  top: 12%;
+  top: 14%;
   bottom: 0;
   text-align: center;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  height: 180px;
+}
+
+.image-button {
+  cursor: pointer;
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  -webkit-filter: grayscale(30%); 
+  filter: grayscale(30%);
 	transition: 1s;
 }
 
@@ -39,3 +48,49 @@
   filter: grayscale(0%);
 }
 
+.bounce-big {
+  animation-name: bounce-big;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+@keyframes bounce-big {
+  0%   { transform: scale(1,1)      translateY(0); }
+  10%  { transform: scale(1.1,.9)   translateY(0); }
+  30%  { transform: scale(.9,1.1)   translateY(-40px); }
+  50%  { transform: scale(1.05,.95) translateY(0); }
+  57%  { transform: scale(1,1)      translateY(-5px); }
+  64%  { transform: scale(1,1)      translateY(0); }
+  100% { transform: scale(1,1)      translateY(0); }
+}
+
+@media screen and (max-width: 800px) {
+  .image-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+  }
+
+  .stage{
+    position: absolute;
+    left: 0;
+    right: -45%;
+    top: 10%;
+    bottom: 0;
+    width: 60%;
+  }
+  .stage img {
+    width: 48%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .stage{
+    position: absolute;
+    left: 0;
+    right: -47%;
+    top: 16%;
+    bottom: 0;
+  }
+}
