@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fad2078.css",
-    "main.js": "/static/js/main.44635296.js",
+    "main.css": "/static/css/main.a326ac81.css",
+    "main.js": "/static/js/main.117fbd96.js",
     "static/js/787.7f4ef900.chunk.js": "/static/js/787.7f4ef900.chunk.js",
     "static/media/NunitoSans-Regular.ttf": "/static/media/NunitoSans-Regular.87d9266583abd389ca1f.ttf",
     "static/media/NunitoSans-ExtraLight.ttf": "/static/media/NunitoSans-ExtraLight.22307f8ccc4ba46e72eb.ttf",
     "static/media/title.png": "/static/media/title.333ae1c052e9e8869d6c.png",
     "index.html": "/index.html",
-    "main.2fad2078.css.map": "/static/css/main.2fad2078.css.map",
-    "main.44635296.js.map": "/static/js/main.44635296.js.map",
+    "main.a326ac81.css.map": "/static/css/main.a326ac81.css.map",
+    "main.117fbd96.js.map": "/static/js/main.117fbd96.js.map",
     "787.7f4ef900.chunk.js.map": "/static/js/787.7f4ef900.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fad2078.css",
-    "static/js/main.44635296.js"
+    "static/css/main.a326ac81.css",
+    "static/js/main.117fbd96.js"
   ]
 }
