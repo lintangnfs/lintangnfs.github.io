@@ -1,7 +1,7 @@
 {
-  "name": "github-pages",
-  "version": "0.1.0",
   "homepage": "https://lintangnfs.github.io/",
+  "name": "lintangnfs.github.io",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
