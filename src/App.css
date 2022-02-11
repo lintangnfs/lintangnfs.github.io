@@ -11,6 +11,13 @@
   width: 100%;
 }
 
+.section-intro {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #F2B945;
+}
+
 .image-title {
   position: absolute;
   margin: auto;
@@ -22,6 +29,7 @@
 }
 
 .stage {
+  cursor: pointer;
   position: absolute;
   margin: auto;
   left: 32%;
@@ -33,7 +41,6 @@
 }
 
 .image-button {
-  cursor: pointer;
   align-self: flex-end;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -46,6 +53,38 @@
 .image-button:hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
+}
+
+.circle {
+  width: 800px;
+  border-radius: 120px;
+  padding: 4% 8%;
+  background-color: #FFFFFF;
+  text-align: center;
+  bottom: 50px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+}
+
+.circle p {
+  font-size: 30px;
+}
+
+.img-intro {
+  position: absolute;
+  z-index: 3;
+}
+
+.daisy {
+  bottom: 0;
+}
+
+.hello {
+  right: 240px;
+  bottom: 100px;
+  font-size: 150px;
 }
 
 .bounce-big {
