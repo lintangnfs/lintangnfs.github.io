@@ -16,10 +16,10 @@
   height: 100vh;
   width: 100vw;
   background-color: #F2B945;
-  /* background-image: url('./assets/decoration/background.svg');
+  background-image: url('./assets/decoration/background.svg');
   background-size: cover;                   
   background-repeat: no-repeat;
-  background-position: center;  */
+  background-position: center; 
 }
 
 .section-porto {
@@ -66,24 +66,28 @@
   filter: grayscale(0%);
 }
 
-.absolute-top {
-  position: absolute;
-  z-index: 3;
-}
-
 .img-intro {
   position: absolute;
   z-index: 3;
   left: 100px;
 }
 
+.img-next {
+  position: absolute;
+  z-index: 3;
+  right: 80px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
 .container-intro {
-  padding: 110px 80px 50px;
+  padding: 110px 90px 50px;
   position: relative;
 }
 
 .container-intro .card {
   margin-top: 50px;
+  font-size: 45px;
 }
 
 .card{
@@ -92,7 +96,11 @@
   padding-top: 70px;
   padding-bottom: 30px;
   width: 100%;
-  font-size: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
 }
 
 .card .card-content{
