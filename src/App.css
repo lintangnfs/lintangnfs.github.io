@@ -148,6 +148,10 @@
     width: 100%;
     left: 0;
   }
+
+  .img-next {
+    display: none;
+  }
   
   .container-intro {
     position: relative;
@@ -156,6 +160,7 @@
   
   .container-intro .card {
     margin-top: -35px;
+    font-size: 20px;
   }
 
   .card{
@@ -184,12 +189,8 @@
     top: 16%;
     bottom: 0;
   }
-  .circle {
-    max-width: 70%;
-  }
-  .daisy {
-    width: 85%;
-    bottom: 0px;
-    z-index: 0;
+  .section-intro {
+    width: 100%;
+    background-image: none;
   }
 }
