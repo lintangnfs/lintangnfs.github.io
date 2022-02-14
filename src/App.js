@@ -1,8 +1,6 @@
 import { useRef } from 'react';
-import next from './assets/elements/next.png'
 import title from './assets/elements/title.png'
 import start from './assets/elements/start-color.png'
-import introduction from './assets/elements/introduction.png'
 
 import './App.css';
 
@@ -19,14 +17,23 @@ function App() {
         </div>
       </div>
       <div ref={introRef} className="section-intro">
-        <div className="container-intro">
-          <img className="img-intro" src={introduction} alt="start" />
-          <div className="card">
-            <div className="card-content">
-              <p>I’m an art enthusiast who loves to solve problems using code and try to create useful plus beautiful web application.</p>
+        <div className="wrapper">
+          <div className="container-intro">
+            <div className="wrapper-intro">
+              <div className="intro">Hello, i'm a</div>
+              <div className="dynamic-text">
+                <div className="box text-animation-1"><span>passionate</span></div>
+                <div className="box text-animation-2"><span><div>mindfull</div></span></div>
+                <div className="box text-animation-3"><span>tought</span></div>
+              </div>
             </div>
           </div>
-          <img className="img-next absolute-top" src={next} alt="next" />
+          <div className="intro">Frontend Engineer</div>
+        </div>
+      </div>
+      <div className="section-porto">
+        <div style={{ position: 'absolute', bottom: '0' }}>
+          Phyllalintang Nafasa
         </div>
       </div>
     </>
