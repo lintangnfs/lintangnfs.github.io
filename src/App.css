@@ -1,3 +1,7 @@
+.bold {
+  font-family: 'Roboto Bold';
+}
+
 .section-title {
   background-color: #286D65;
   position: relative;
@@ -6,7 +10,7 @@
 }
 
 .section-intro {
-  height: 100vh;
+  height: max-content;
   width: 100vw;
   background-color: #F2B945;
 }
@@ -57,7 +61,7 @@
 }
 
 .section-intro .wrapper {
-  padding: 50px 100px;
+  padding: 30px 100px 100px;
 }
 
 .wrapper-intro {
@@ -90,6 +94,7 @@
   font-family: 'Roboto Bold';
   display: block;
   color: #286D65;
+  font-size: 40px;
 }
 
 .text-animation-3 {
@@ -100,7 +105,7 @@
 
 .text-animation-2 div{
   background-color: #FFFFFF;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 .text-animation-1 span:after{
@@ -148,13 +153,27 @@
 .container-intro {
   display: flex;
   min-height: max-content;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 10px;
 }
 
 .bounce-big {
   animation-name: bounce-big;
   animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+.section-intro .card{
+  bottom: 30px;
+  margin-top: 120px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.card-content {
+  padding: 30px;
 }
 
 @keyframes bounce-big {
@@ -297,10 +316,13 @@
 
   .section-intro .wrapper {
     padding: 50px 40px;
+    position: relative;
   }
+
   .intro {
     font-size: 40px;
   }
+
   .dynamic-text {
     margin-top: 0;
     margin-left: 15px;

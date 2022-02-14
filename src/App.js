@@ -28,7 +28,10 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="intro">Frontend Engineer</div>
+          <div className="intro bold">Frontend Engineer</div>
+        </div>
+        <div style={{ display: 'flex' }}>
+
         </div>
       </div>
       <div className="section-porto">
