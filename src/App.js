@@ -24,7 +24,7 @@ function App() {
               <div className="dynamic-text">
                 <div className="box text-animation-1"><span>passionate</span></div>
                 <div className="box text-animation-2"><span><div>mindfull</div></span></div>
-                <div className="box text-animation-3"><span>tought</span></div>
+                <div className="box text-animation-3"><span>creative</span></div>
               </div>
             </div>
           </div>
